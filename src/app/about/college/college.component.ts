@@ -1,11 +1,9 @@
-import {Component, Inject, OnInit} from '@angular/core';
-import {DomSanitizer} from '@angular/platform-browser';
-import {finalize} from 'rxjs/operators';
-import {COLLEGE_ABOUT$} from '../about.providers';
-import {Observable} from 'rxjs';
-import {AboutInterface} from '../about.interface';
+import { Component, Inject, OnInit } from '@angular/core';
+import { COLLEGE_ABOUT$ } from '../about.providers';
+import { Observable } from 'rxjs';
+import { AboutInterface } from '../about.interface';
 import { TranslateService } from '@ngx-translate/core';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../../environments/environment';
 
 
 @Component({

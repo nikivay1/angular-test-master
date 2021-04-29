@@ -1,14 +1,13 @@
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-
-import {AboutRoutingModule} from './about-routing.module';
-import {CollegeComponent} from './college/college.component';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { AboutRoutingModule } from './about-routing.module';
+import { CollegeComponent } from './college/college.component';
 import { COLLEGE_ABOUT$ } from './about.providers';
-import { Observable, of } from 'rxjs';
+import { of } from 'rxjs';
 import { AboutInterface } from './about.interface';
 import { TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../environments/environment';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule } from '@angular/forms';
 
